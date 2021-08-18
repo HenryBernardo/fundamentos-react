@@ -9,6 +9,7 @@ import listaAlunos from "./components/repeticao/ListaAlunos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import DiretaPai from "./components/comunicacao/DiretaPai"
 
 function App() {
 
@@ -16,6 +17,10 @@ function App() {
 
     <>
     <div className="Cards">
+    <Card titulo="#09 - comunicacao Direta" color="#1de289">
+          <DiretaPai></DiretaPai>
+      </Card>
+
       <Card titulo="#08 - Renderização Condicional" color="#f90673">
           <ParOuImpar numero={2}></ParOuImpar>
       </Card>
